@@ -1,3 +1,3 @@
-from emerald.main import ask
+from freegpt.main import ask
 
-print(ask("do you know who yeat is?"))
+print(ask("generate 10 names for a baby"))
