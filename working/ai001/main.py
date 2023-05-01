@@ -33,8 +33,3 @@ def ask(question):
     response = requests.post('https://64175708301.ai001.live/api/chat-stream', headers=headers, json=json_data)
 
     return response.text
-
-# Note: json_data will not be serialized by requests
-# exactly as it was in the original request.
-#data = '{"messages":[{"role":"user","content":"hello"}],"stream":true,"model":"gpt-3.5-turbo","temperature":0.7,"presence_penalty":0}'
-#response = requests.post('https://64175708301.ai001.live/api/chat-stream', headers=headers, data=data)

@@ -43,7 +43,3 @@ def ask(question):
 
     return e
 
-# Note: json_data will not be serialized by requests
-# exactly as it was in the original request.
-#data = '{"prompt":"hello","options":{},"systemMessage":"You are ChatGPT, the version is GPT3.5, a large language model trained by OpenAI. Follow the user\'s instructions carefully. Respond using markdown.","temperature":0.8,"top_p":1,"secret":"U2FsdGVkX1+3Iu9Weh+JiS8VCAkB/NWVz40KoMyM7mQ="}'
-#response = requests.post('https://api.gptplus.one/chat-process', headers=headers, data=data)

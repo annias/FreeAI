@@ -37,7 +37,3 @@ def ask(question):
 
     return response.json()["data"]
 
-# Note: json_data will not be serialized by requests
-# exactly as it was in the original request.
-#data = '{"messages":[{"role":"user","content":"hi"}],"stream":true,"model":"gpt-3.5-turbo","temperature":1,"presence_penalty":0,"text":"hi"}'
-#response = requests.post('https://chargpt.hz-it-dev.com/send2', headers=headers, data=data)
