@@ -1,3 +1,3 @@
-from working.hzit.main import ask
+from aigc.main import ask
 
-print(ask("hi"))
+print(ask("hi gpt"))

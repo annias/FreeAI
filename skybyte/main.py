@@ -25,14 +25,9 @@ def ask(question):
     }
 
     response = requests.post('https://chatgpt.skybyte.me/api/chat-process', headers=headers, json=json_data)
-    with open("temp.txt", 'w') as f:
-        f.write(response.text)
-    
-    with open('temp.txt', 'r') as f:
-        last_line = f.readlines()[-1]
+    last_line = response.text.splitlines()[-1]
 
     e = re.findall('"([^"]*)"', last_line)
     e[9] = e[9].replace("\\n", " ")
-    os.remove('temp.txt')
     return e[9]
 

@@ -24,7 +24,7 @@ def ask(question):
         'systemMessage': "You are ChatGPT, the version is GPT3.5, a large language model trained by OpenAI. Follow the user's instructions carefully. Respond using markdown.",
         'temperature': 0.8,
         'top_p': 1,
-        'secret': 'U2FsdGVkX19AtXtTE/ugQDXZRAb3C85Uc8SjUKRBH4U=',
+        'secret': 'U2FsdGVkX19AtXtTE/ugQDXZRAb3C85Uc8SjUKRBH4U=', # need to get secret
     }
 
     response = requests.post('http://api.gptplus.one/chat-process', headers=headers, json=json_data)
