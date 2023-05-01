@@ -1,3 +1,3 @@
-from ai001.main import ask
+from working.emerald.main import ask
 
-print(ask("generate 10 names for a baby"))
+print(ask("generate a rap song about code."))
