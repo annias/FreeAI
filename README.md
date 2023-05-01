@@ -12,5 +12,6 @@ pip install -r requirements.txt
 
 ### Community Projects
 This is a space for projects using FreeAI to be showcased.
-Join the discord and put your project in the community projects tab for your projects to be added here.\n
-\nhttps://github.com/forfeited/FreeDiscordAI | forfeited
+Join the discord and put your project in the community projects tab for your projects to be added here.
+------------------------------------------------------------------------------------------------------
+https://github.com/forfeited/FreeDiscordAI | forfeited
