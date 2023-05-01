@@ -1,3 +1,3 @@
-from xiami.main import ask
+from ai001.main import ask
 
 print(ask("hi gpt"))
