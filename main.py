@@ -1,3 +1,3 @@
-from aigc.main import ask
+from xiami.main import ask
 
 print(ask("hi gpt"))
