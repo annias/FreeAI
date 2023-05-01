@@ -36,7 +36,3 @@ def ask(question):
     os.remove('temp.txt')
     return e[9]
 
-    # Note: json_data will not be serialized by requests
-    # exactly as it was in the original request.
-    #data = '{"prompt":"hi","options":{}}'
-    #response = requests.post('https://chatgpt.skybyte.me/api/chat-process', headers=headers, data=data)
