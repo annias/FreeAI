@@ -5,7 +5,7 @@ if you would like your site to be taken down from this repository. please contac
 ## Disclaimer
 I take no responsibility for what you do with this project. This code is provided as is and all responsibility falls on you and how you use it. This is only for educational purposes and I am not affiliated with these websites nor do I claim ownership of these websites or their models.
 
-### Join our discord for more info. https://discord.gg/keCNkrwRyw
+### Join our discord for more info. https://discord.gg/2yp9PBf7tc
 
 ## Installation
 ```
