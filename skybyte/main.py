@@ -18,6 +18,7 @@ def ask(question):
     last_line = response.text.splitlines()[-1]
 
     e = re.findall('"([^"]*)"', last_line)
+    print(e)
     e[9] = e[9].replace("\\n", " ")
     return e[9]
 

@@ -1,3 +1,6 @@
-from ai001.main import ask
+from aichat.main import ask
 
-print(ask("hi gpt"))
+while True:
+  prompt = input("You: ")
+  response = ask(prompt)
+  print(f"GPT: {response}")

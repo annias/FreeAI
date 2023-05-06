@@ -22,6 +22,6 @@ def ask(question):
         'presence_penalty': 0,
     }
 
-    response = requests.post('https://c.aigc.it/api/chat-stream', headers=headers, json=json_data)
+    response = requests.post('https://c.aigc.it/api/openai/v1/chat/completions', headers=headers, json=json_data)
     
     return response.text
